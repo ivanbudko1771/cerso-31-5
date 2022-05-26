@@ -1,0 +1,40 @@
+Diagrama de Estados
+
+1. ¿Para qué se utiliza el diagrama de estados?
+El diagrama de estados se utiliza para visualizar los cambios de comportamiento de un objeto a partir de sus transiciones.
+
+2. ¿A qué hace referencia un estado?
+Un estado hace referencia a un objeto, y representa el conjunto de valores que tiene ese objeto en un determinado momento.
+
+3. ¿Qué entendes por “caja negra”?
+Por caja negra entiendo que es el ver al sistema por sus caracteristicas de entrada y salida.
+
+4. ¿Cuándo utilizó los Entry Point y Exit Point?
+Los Entry Point se utiliza para representar el punto de entrada al estado compuesto y los Exit Point representan el punto de salida de un estado compuesto o un subcompuesto.
+
+5. ¿A que hace referencia un pseudo-estado?
+Un pseudoestado hace referencia al punto donde se encuentra las transiciones de los posibles estados, podemos tener un pseudo-estado inicial(cuando comienza) o un pseudo-estado final(cuando termina).
+
+6. ¿Qué representan las transición?
+La transición representa la forma de vincular estados, y es el medio en que un estado pasa a otro estado.
+
+7. Definí los términos evento, sub estado, estado histórico.
+Evento: Es aquello que da pie al inicio de la transición de un estado a otro.
+Sub-estado: Es una división de un estado compuesto que puede ser modelado dentro del mismo o en un diagrama aparte.
+Estado histórico: Es un pseudo-estado que se ubica dentro de un estado compuesto, este permite recordar y posibilitar volver a una instancia previa de un sub-estado.  
+
+8. ¿Qué son los estados concurrentes?
+Son indicaciones de que los caminos concurrentes que pasen por este estado seran sincronizados.
+
+9. ¿En que se diferencia un diagrama de estados a uno de clases o de caso uso?
+-
+
+10. Se tiene una clase habitación con atributos número y estado. Las habitaciones se
+encuentran Habilitada o deshabilitadas. Una habitación está habilitada cuando está
+libre, ocupada, desocupada o bajo limpieza. ¿Pensá algunos estados para una
+habitación deshabilitada? Representar mediante un diagrama de estados. Utilizar
+software de modelado UML.
+
+Habitacion(Atributos: numero y estado)
+		|
+  	Habitaciones(0(=clausurada)/1(=desocupada,ocupada,libre,bajo limpieza))
